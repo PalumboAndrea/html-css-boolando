@@ -1,5 +1,35 @@
+/* GENERAL TAG */
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+/* HEADER */
+
+header{
+    background-color: #FF6800;
+    width: 100%;
+    height: 50px;
+}
+
+header>section{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section>span{
+    margin-right: 0.8rem;
+}
+
+section>img{
+    height: 55%;
 }
